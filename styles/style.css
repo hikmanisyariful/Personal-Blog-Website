@@ -106,6 +106,7 @@ body {
 
 a {
   font-size: 1.2em;
+  text-decoration: none;
 }
 
 /* Hero Section */
@@ -195,8 +196,14 @@ a {
 
 }
 
-.card>a {
+.card>a:link {
   font-size: 1em;
+  color: #4682b4;
+  text-decoration: none;
+}
+
+.card>a:hover {
+  color: #fff;
 }
 
 /*Sub Content*/
@@ -267,6 +274,7 @@ a {
   font-size: 1em;
   color: #4682b4;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .wrap-card>a:hover {
