@@ -150,14 +150,31 @@
 }
 
 .social-sharing>p,
-.social-sharing>img {
+.social-sharing>a {
   margin-bottom: 20px;
   color: #808080;
 }
 
-.sosmed {
+.facebook,
+.linkedin,
+.tweeter {
   width: 30px;
   height: 30px;
+}
+
+#facebook {
+  background-image: url("../assets/images/facebook.png");
+  background-size: contain;
+}
+
+#linkedin {
+  background-image: url("../assets/images/linkedin.png");
+  background-size: contain;
+}
+
+#tweeter {
+  background-image: url("../assets/images/tweeter.png");
+  background-size: contain;
 }
 
 /* Navigation */
@@ -230,8 +247,9 @@
   }
 
   .social-sharing>p,
-  .social-sharing>img {
-    margin-right: 20px;
+  .social-sharing>a {
+    margin-top: 10px;
+    margin-right: 10px;
     color: #808080;
   }
 
