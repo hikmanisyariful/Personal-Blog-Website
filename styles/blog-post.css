@@ -1,12 +1,4 @@
-* {
-  font-family: "Montserrat", sans-serif;
-}
-
-body {
-  margin: 0;
-}
-
-.container {
+.container-blog {
   display: grid;
   grid-template-columns: 200px 300px;
   grid-auto-rows: minmax(80px, auto);
