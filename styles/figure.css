@@ -19,3 +19,13 @@ figure>figcaption {
   padding: 3px;
   text-align: center;
 }
+
+@media (max-width: 576px) {
+  figure {
+    max-width: 80vw;
+  }
+
+  figure>img {
+    max-width: 80vw;
+  }
+}

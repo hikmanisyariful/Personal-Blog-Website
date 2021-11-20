@@ -11,6 +11,12 @@
   align-items: center;
 }
 
+@media (max-width: 576px) {
+  .footer {
+    width: 100vw;
+  }
+}
+
 .footer>h1,
 .footer>p {
   color: #fff;
